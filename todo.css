@@ -5,8 +5,34 @@ body {
   text-align: center;
 }
 
-.col-md-6 {
+.col-md-5 {
   background-color:#FFF;
   padding:20px 20px 10px 20px;
   margin-top:30px;
+}
+
+.form-control{
+    border-radius:0;
+}
+
+li.ui-state-default{
+    background:#fff;
+    border:none;
+    border-bottom:1px solid #ddd;
+}
+
+li.ui-state-default:last-child{
+    border-bottom:none;
+}
+
+.todo-footer{
+    background-color:#F4FCE8;
+    margin:0 -20px -10px -20px;
+    padding: 10px 20px;
+}
+
+#done-items {
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+    text-decoration:line-through;
 }

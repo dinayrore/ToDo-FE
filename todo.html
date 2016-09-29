@@ -9,14 +9,28 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <h1>To Do</h1>
+          <input type="text" class="form-control add-todo" placeholder="Press Enter To Add Items"/>
+            <ul id="sortable" class="list-unstyled">
+              <li class="ui-state-default">
+                <div class="checkbox">
+                </div>
+              </li>
+            </ul>
+          <div class="todo-footer">
+              <strong><span class="count-todos"></span></strong> Items Left
+          </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-5 col-md-offset-2">
           <h1>Done</h1>
+            <ul id="done-items" class="list-unstyled">
+              <!-- <button class="remove-item btn btn-default btn-xs pull-right"><span class="glyphicon glyphicon-remove"></span></button> -->
+            </ul>
         </div>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
