@@ -2,6 +2,11 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #333;
   background-color: #e5f2ec;
+}
+
+body h1 {
+  font-size: 75px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -9,30 +14,30 @@ body {
   background-color:#FFF;
   padding:20px 20px 10px 20px;
   margin-top:30px;
+  text-align: center;
+}
+
+.col-md-5 col-md-offset-2 {
+  background-color:#FFF;
+  padding:20px 20px 10px 20px;
+  margin-top:30px;
+  text-align: center;
 }
 
 .form-control{
-    border-radius:0;
+  border-radius:0;
 }
 
-li.ui-state-default{
-    background:#fff;
-    border:none;
-    border-bottom:1px solid #ddd;
-}
-
-li.ui-state-default:last-child{
-    border-bottom:none;
-}
-
-.todo-footer{
-    background-color:#F4FCE8;
-    margin:0 -20px -10px -20px;
-    padding: 10px 20px;
+.list-unstyled{
+  background:#fff;
+  border:none;
+  border-bottom:1px solid #ddd;
+  text-align: left;
 }
 
 #done-items {
-    padding:10px 0;
-    border-bottom:1px solid #ddd;
-    text-decoration:line-through;
+  padding:10px 0;
+  border-bottom:1px solid #ddd;
+  text-decoration:line-through;
+  text-align: center;
 }
